@@ -1,8 +1,5 @@
 ---
 - name: use galaxy nginx role
   hosts: ansible1.example.com
-  user: ansible
-  become: true
-
   roles:
     - role: geerlingguy.nginx
